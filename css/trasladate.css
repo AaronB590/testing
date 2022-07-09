@@ -1,0 +1,60 @@
+#Trasladate {
+    background-color: rgb(230, 226, 212);
+    color: black;
+}
+
+#Trasladate h2{
+    color: black;
+}
+
+#trasladate ul, #trasladate ol{
+    margin-left: 20px;
+    padding-left: 20px;
+
+}
+
+#trasladate-cabecera{
+    background-color: rgba(94, 68, 54, 0.936);
+    padding: 45px 0px;
+}
+
+#trasladate-cabecera h1{
+color: #e4e4e4;
+}
+
+.derecha{
+    margin-left: 50px;
+}
+
+.arreglo{
+margin-top: -40px;
+}
+
+
+#trasladate ul{
+list-style-type: disc;
+}
+
+.video-responsive{
+  aspect-ratio: 16 / 9; 
+  width: 100%;
+  height: auto; 
+  background-color: black;
+}
+
+h1{
+    text-decoration: none;
+}
+
+
+@media screen and (max-width:650px) {
+    #pie #alinear{
+        flex-direction: column-reverse;
+        align-items: center;
+
+    }
+
+    #pie p{
+        text-align: center;
+    }
+}
